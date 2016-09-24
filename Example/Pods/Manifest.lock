@@ -1,0 +1,16 @@
+PODS:
+  - ImWithHer (0.1.0)
+
+DEPENDENCIES:
+  - ImWithHer (from `../`)
+
+EXTERNAL SOURCES:
+  ImWithHer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImWithHer: fd664b92438f6b9306dd3d6f6c5f84baa1a1b6a1
+
+PODFILE CHECKSUM: 7c0f46accf3915d26305cc372b23a164c2850ee2
+
+COCOAPODS: 1.0.1

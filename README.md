@@ -13,7 +13,7 @@ The 2016 presidential election is extremely important, and as a country, we must
 
 You're on GitHub reading this right now, so you probably build software. Have an iOS app? Want to do your part in making sure Donald Trump doesn't win? This prompt allows you to prompt your users to donate to Hillary with at most 3 lines of code. 
 
-![s](Simulator Screen Shot Sep 26, 2016, 4.36.05 PM.png)
+![s](Simulator Screen Shot Sep 26, 2016, 4.36.05 PM.png =250x)
 
 In your `application:didFinishLaunchingWithOptions:` function, add the following line of code.
 

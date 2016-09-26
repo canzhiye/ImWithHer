@@ -7,7 +7,7 @@
 
 ## Why?
 
-This election is extremely important, and as a country, we must not let a dangerous, bigoted, fraudulent man become the president. The two biggest ways to do your part is 1) register to vote and vote Hillary, and 2) donate to the Hillary campaign.
+The 2016 presidential election is extremely important, and as a country, we must not let a dangerous, bigoted, fraudulent man become the president. The two biggest ways to do your part is 1) [register to vote](https://vote.usa.gov/) and vote Hillary, and 2) [donate](https://www.hillaryclinton.com/donate/?ref=ImWithHerPod) to the Hillary campaign.
 
 ## How does this work?
 

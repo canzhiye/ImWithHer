@@ -40,14 +40,23 @@ public class ImWithHer: NSObject {
 					topViewController?.presentViewController(safariViewController, animated: true, completion: nil)
 				})
 				
+				let registerToVoteAction = UIAlertAction(title: "Register to Vote", style: .Default, handler: { (action) in
+					let safariViewController = SFSafariViewController(URL: NSURL(string: "https://www.voteplz.org/")!)
+					topViewController?.presentViewController(safariViewController, animated: true, completion: nil)
+				})
+				
 				let noThanksAction = UIAlertAction(title: "Let Donald Trump Win", style: .Destructive, handler: { action in
 					
 					let safariViewController = SFSafariViewController(URL: NSURL(string: "https://www.hillaryclinton.com/donate/?ref=ImWithHerPod")!)
 					topViewController?.presentViewController(safariViewController, animated: true, completion: nil)
 				})
 				
+				let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
+				
 				alert.addAction(donateAction)
+				alert.addAction(registerToVoteAction)
 				alert.addAction(noThanksAction)
+				alert.addAction(cancelAction)
 			
 				topViewController?.presentViewController(alert, animated: true, completion: nil)
 			})

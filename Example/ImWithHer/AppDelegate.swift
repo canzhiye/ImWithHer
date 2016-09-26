@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
 		ImWithHer.appLaunched()
-		
+		ImWithHer.daysUntilPrompt = 2
         return true
     }
 

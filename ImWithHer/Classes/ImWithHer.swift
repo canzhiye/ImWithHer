@@ -33,14 +33,18 @@ public class ImWithHer: NSObject {
 			dispatch_async(dispatch_get_main_queue(), {
 				let topViewController = UIApplication.topViewController()
 				
-				let alert = UIAlertController(title: "Let's Stop Trump.", message: "Lorem Ipsum", preferredStyle: .Alert)
+				let alert = UIAlertController(title: "Stop Trump.", message: "This election is extremely important, and as a country, we must not let a dangerous, bigoted, fraudulent man become the president. The two biggest ways to do your part is 1) register to vote and vote Hillary, and 2) donate to the Hillary campaign.", preferredStyle: .Alert)
 				
 				let donateAction = UIAlertAction(title: "Donate Now", style: .Default, handler: { (action) in
 					let safariViewController = SFSafariViewController(URL: NSURL(string: "https://www.hillaryclinton.com/donate/?ref=ImWithHerPod")!)
 					topViewController?.presentViewController(safariViewController, animated: true, completion: nil)
 				})
 				
-				let noThanksAction = UIAlertAction(title: "Let Donald Trump Win", style: .Destructive, handler: nil)
+				let noThanksAction = UIAlertAction(title: "Let Donald Trump Win", style: .Destructive, handler: { action in
+					
+					let safariViewController = SFSafariViewController(URL: NSURL(string: "https://www.hillaryclinton.com/donate/?ref=ImWithHerPod")!)
+					topViewController?.presentViewController(safariViewController, animated: true, completion: nil)
+				})
 				
 				alert.addAction(donateAction)
 				alert.addAction(noThanksAction)

@@ -1,0 +1,10 @@
+framework module ImWithHer {
+  umbrella header "ImWithHer-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ImWithHer.Swift {
+    header "ImWithHer-Swift.h"
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImWithHer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Solicit donations on behalf of Hillary with just a few lines of code.'
 
   s.description      = 'Donald Trump is unacceptable and we must do everything we can to stop him. This pod allows you to prompt your users to donate to Hillary with just a few lines of code.'

@@ -27,7 +27,6 @@ ImWithHer.daysUntilPrompt = 2
 Optionally, set how many times a user must open your app before you prompt them. (Default 0)
 ```
 ImWithHer.usesUntilPrompt = 2
-
 ```
 
 ## Installation
